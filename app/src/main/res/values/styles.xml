@@ -4,4 +4,8 @@
         <item name="backgroundTint">@null</item>
         <item name="android:background">@drawable/login_button</item>
     </style>
+    <style name="botonRegistro">
+        <item name="backgroundTint">@null</item>
+        <item name="android:background">@drawable/registro_button</item>
+    </style>
 </resources>
