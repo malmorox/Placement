@@ -53,8 +53,6 @@
         android:layout_height="wrap_content"
         android:text="Entrar"
         style="@style/botonLogin"
-        android:backgroundTint="@null"
-        android:background="@drawable/login_button"
         app:layout_constraintStart_toStartOf="@id/guideline1"
         app:layout_constraintEnd_toStartOf="@id/boton2"
         app:layout_constraintTop_toBottomOf="@id/contrasena" />
