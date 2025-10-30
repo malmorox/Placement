@@ -56,29 +56,31 @@
         android:backgroundTint="@null"
         android:background="@drawable/login_button"
         app:layout_constraintStart_toStartOf="@id/guideline1"
-        app:layout_constraintEnd_toEndOf="@id/guideline2"
+        app:layout_constraintEnd_toStartOf="@id/boton2"
         app:layout_constraintTop_toBottomOf="@id/contrasena" />
 
     <Button
+        android:id="@+id/boton2"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Registrarse"
-        app:layout_constraintStart_toStartOf="@id/guideline1"
+        style="@style/botonRegistro"
         app:layout_constraintEnd_toEndOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/boton1" />
+        app:layout_constraintStart_toEndOf="@id/boton1"
+        app:layout_constraintTop_toBottomOf="@id/contrasena"/>
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.3" />
+        app:layout_constraintGuide_percent="0.2" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.7" />
+        app:layout_constraintGuide_percent="0.8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
